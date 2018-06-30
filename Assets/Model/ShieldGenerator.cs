@@ -6,7 +6,7 @@ public class ShieldGenerator : IInteractable
     {
         Debug.Log("Interacting with 'ShieldGenerator'...");
         Debug.Log("Shield before: " + ship.Shield);
-        ship.AddShield(1);
+        ship.GenerateShield();
         Debug.Log("Shield after: " + ship.Shield);
     }
 }

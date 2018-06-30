@@ -5,12 +5,7 @@
      * your tank. Look you for some Vuel floating around in outer space. It might be your only way to get
      * more Vuel.
      */
-    float VuelForSteam { get; }
-
-    /***
-     * Oh, you can also bring your Vuel to this tank. When you add Vuel here it get's converted to you Ship's Shield
-     */
-    float VuelForShield { get; }
+    float Vuel { get; }
 
     /***
      * During your travel through space you might encounter some meteriote or other unidentified flying objects.
@@ -32,9 +27,8 @@
      */
     float Health { get; }
 
-    void AddShield(int value);
+    void GenerateShield();
     void ReleaseSteam();
-    void InsertVuelForSteam(int value);
-    void InsertVuelForShield(int value);
+    void InsertVuel(float value);
     void Update();
 }
