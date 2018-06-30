@@ -73,7 +73,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 04f6f64d385f24d5b840c0260417a324
+=======
+    spriteID: ff183912f76d6fa468cecd7be0ccd743
+>>>>>>> origin/progress-level-bar
     vertices: []
     indices: 
     edges: []
