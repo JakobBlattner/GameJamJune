@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Ship : IShip
 {
-
     private static IShip _ship;
 
     public static IShip Instance
@@ -14,27 +13,40 @@ public class Ship : IShip
 
     private Ship()
     {
-        
+        Health = 100f;
     }
-
-    public float Power { get; private set; }
+    
+    public float Vuel { get; private set; }
     public float Shield { get; private set; }
     public float Health { get; private set; }
     public float Steam { get; private set; }
-    public float Water { get; private set; }
 
     public void AddShield(int value)
     {
-        Shield = Math.Min(100, Shield + value);
+        const float maxShield = 100;
+        Shield = Math.Min(maxShield, Shield + value);
     }
 
     public void ReleaseSteam()
     {
-        Steam = Math.Max(Steam--, 0);
+        const float steamReleaseValue = 5;
+        Steam = Math.Max(Steam - steamReleaseValue, 0);
     }
 
-    public void AddPower(int value)
+    public void InsertVuel(int value)
     {
         throw new NotImplementedException();
+    }
+
+    public void Update()
+    {
+        Steam = Math.Min(Steam + 0.2f, 100f);
+        Vuel = Math.Max(Vuel - 0.1f, 0f);
+
+        if (Math.Abs(Steam - 100) < 0.1f)
+        {
+            Health = Health - 0.05f;
+        }
+
     }
 }

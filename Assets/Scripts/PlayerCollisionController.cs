@@ -24,42 +24,23 @@ public class PlayerCollisionController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        Debug.Log("Something triggered with me!!!");
         var interactable = GetInteractable(coll);
         if (interactable != null)
-        {
-            Debug.Log(interactable);
             _player.Attach(interactable);
-        }
-        else
-        {
-            Debug.Log("Interactable is  null");
+    }
 
-        }
 
+    void OnTriggerExit2D(Collider2D coll)
+    {
+        var interactable = GetInteractable(coll);
+        
+        if (interactable != null)
+            _player.Detach(interactable);
     }
 
     private static IInteractable GetInteractable(Collider2D coll)
     {
         var interactableComponent = coll.GetComponent<InteractableComponent>();
         return interactableComponent != null ? interactableComponent.GetInteractable() : null;
-    }
-
-    void OnTriggerExit2D(Collider2D coll)
-    {
-        Debug.Log("Something triggered with me!!!");
-        var interactable = GetInteractable(coll);
-        
-        if (interactable != null)
-        {
-            Debug.Log("Triggered by " +interactable);
-            _player.Detach(interactable);
-        }
-    }
-
-
-    void OnCollisionEnter2D(Collision2D coll)
-    {
-        Debug.Log("Something collided with me!!!");
     }
 }

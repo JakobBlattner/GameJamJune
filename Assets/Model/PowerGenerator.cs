@@ -5,8 +5,8 @@ public class PowerGenerator : IInteractable
     public void Interact(IPlayer player, IShip ship)
     {
         Debug.Log("Interacting with 'PowerGenerator'...");
-        Debug.Log("Power before: " + ship.Power);
-        ship.AddPower(1);
-        Debug.Log("Power after: " + ship.Power);
+        Debug.Log("Vuel before: " + ship.Vuel);
+        ship.InsertVuel(1);
+        Debug.Log("Vuel after: " + ship.Vuel);
     }
 }
