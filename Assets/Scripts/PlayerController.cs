@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
             RemoveForce(_body);
         else
             AddMovementToForce(movement, _body);
-        
     }
 
     static void RemoveForce(Rigidbody2D body)
@@ -42,6 +41,9 @@ public class PlayerController : MonoBehaviour
         ClampMaximumSpeed(body);
         //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
         body.AddForce(movement * Speed);
+
+
+        body.transform.rotation = Quaternion.LookRotation(Vector3.back, movement);
     }
 
     private static Vector2 GetMovement()
