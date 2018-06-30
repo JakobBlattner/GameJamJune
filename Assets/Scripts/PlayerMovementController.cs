@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerMovementController : MonoBehaviour
 {
 
     public float Speed;
@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
     static void RemoveForce(Rigidbody2D body)
     {
         body.velocity = Vector2.zero;
+        body.freezeRotation = true;
     }
 
     private void AddMovementToForce(Vector2 movement, Rigidbody2D body)
