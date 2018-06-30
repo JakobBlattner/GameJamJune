@@ -9,12 +9,7 @@ public class PlayerMovementController : MonoBehaviour
     public float MaximumVelocity;
 
     private Rigidbody2D _body;
-
-    public GameObject Player
-    {
-        get { return gameObject; }
-    }
-
+    
     // Use this for initialization
     void Start ()
     {
@@ -24,7 +19,9 @@ public class PlayerMovementController : MonoBehaviour
     void FixedUpdate()
     {
         var movement = GetMovement();
-
+        var isInteraction = Input.GetKey(KeyCode.E);
+        if(isInteraction)
+            Player.Instance.Interact();
         if(movement == Vector2.zero)
             RemoveForce(_body);
         else
