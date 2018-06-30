@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ddb888cd7e774d3da46d76b6d90217b
+guid: a020307e5e44f96439cc5786551e2639
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -73,11 +73,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< HEAD
-    spriteID: 04f6f64d385f24d5b840c0260417a324
-=======
-    spriteID: ff183912f76d6fa468cecd7be0ccd743
->>>>>>> origin/progress-level-bar
+    spriteID: 02e03f0dc684bcc4a89df827ae74cbba
     vertices: []
     indices: 
     edges: []
