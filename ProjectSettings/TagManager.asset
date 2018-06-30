@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Level Background
+    uniqueID: 454335997
+    locked: 0
+  - name: Player&Objects
+    uniqueID: 2038019717
+    locked: 0
