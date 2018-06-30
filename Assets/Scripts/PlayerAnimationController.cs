@@ -18,7 +18,7 @@ public class PlayerAnimationController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-	    var isWalking = _body.velocity == Vector2.zero;
+	    var isWalking = _body.velocity != Vector2.zero;
 	    _animator.SetBool(ParameterIsWalking, isWalking);
 	}
 }
