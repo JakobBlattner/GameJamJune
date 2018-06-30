@@ -14,9 +14,9 @@ public class InteractableComponent : MonoBehaviour
         {
             switch (InteractableType)
             {
-            case Interactable.ShieldGenerator:
-                _interactable = new ShieldGenerator();
-                break;
+                case Interactable.ShieldGenerator:
+                    _interactable = new ShieldGenerator();
+                    break;
                 case Interactable.SteamVentilation:
                     _interactable = new SteamVentilation();
                     break;
@@ -39,9 +39,4 @@ public class InteractableComponent : MonoBehaviour
 	void Update () {
 		
 	}
-
-    public void Interact(IPlayer player, IShip ship)
-    {
-        GetInteractable().Interact(player, ship);
-    }
 }

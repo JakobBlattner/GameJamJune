@@ -6,15 +6,11 @@ using UnityEngine;
 public class PlayerCollisionController : MonoBehaviour
 {
     private IPlayer _player;
-    private IShip _ship;
 
     // Use this for initialization
 	void Start ()
 	{
 	    _player = Player.Instance;
-	    _ship = Ship.Instance;
-	    Debug.Log("Start");
-
     }
 	
 	// Update is called once per frame
