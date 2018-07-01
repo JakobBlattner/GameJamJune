@@ -8,7 +8,7 @@ public class Ship : IShip
     
     private static IShip _ship;
 
-    const float VuelTick = 0.01f;
+    const float FuelTick = 0.01f;
 
     const float SteamTick = 0.04f;
     const float SteamTickCooling = 0.01f;
@@ -18,9 +18,10 @@ public class Ship : IShip
 
     const float SteamOverloadThreshold = 75f;
 
-    const float MaxValueVuelForSteam = 100f;
+    const float MaxValueFuelForSteam = 100f;
     const float MaxValueShield = 100f;
     const float MaxValueSteam = 100f;
+    const float MaxValueStardust = 3f;
 
     public static IShip Instance
     {
@@ -30,18 +31,18 @@ public class Ship : IShip
     private Ship()
     {
         Health = 100f;
-        Vuel = 80f;
+        Fuel = 80f;
         Shield = 20f;
     }
     
-    public float Vuel { get; private set; }
+    public float Fuel { get; private set; }
     public float Shield { get; private set; }
     public float Health { get; private set; }
     public float Steam { get; private set; }
 
     public void GenerateShield()
     {
-        Vuel = Math.Max(Vuel - VuelTick, 0f);
+        Fuel = Math.Max(Fuel - FuelTick, 0f);
         Shield = Math.Min(MaxValueShield, Shield + ShieldTick);
     }
 
@@ -50,14 +51,14 @@ public class Ship : IShip
         Steam = Math.Max(Steam - SteamReleaseTick, 0);
     }
 
-    public void InsertVuel(float value)
+    public void InsertFuel(float value)
     {
-        Vuel = Math.Min(MaxValueVuelForSteam, Vuel + value);
+        Fuel = Math.Min(MaxValueFuelForSteam, Fuel + value);
     }
 
     public void Update()
     {
-        VuelSteamEngine();
+        FuelSteamEngine();
         HandleSteamOverload();
     }
 
@@ -72,12 +73,12 @@ public class Ship : IShip
         }
     }
 
-    private void VuelSteamEngine()
+    private void FuelSteamEngine()
     {
-        if(Vuel > VuelTick)
+        if(Fuel > FuelTick)
         { 
             Steam = Math.Min(Steam + SteamTick, MaxValueSteam);
-            Vuel = Math.Max(Vuel - VuelTick, 0f);
+            Fuel = Math.Max(Fuel - FuelTick, 0f);
         }
         else
         {

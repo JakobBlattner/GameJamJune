@@ -1,11 +1,11 @@
 ﻿public interface IShip
 {
     /***
-     * Your ship runs on Vuel - no shit! If you want to travel faster you can grab some Vuel and bring it to
-     * your tank. Look you for some Vuel floating around in outer space. It might be your only way to get
-     * more Vuel.
+     * Your ship runs on Fuel - no shit! If you want to travel faster you can grab some Fuel and bring it to
+     * your tank. Look you for some Fuel floating around in outer space. It might be your only way to get
+     * more Fuel.
      */
-    float Vuel { get; }
+    float Fuel { get; }
 
     /***
      * During your travel through space you might encounter some meteriote or other unidentified flying objects.
@@ -27,8 +27,9 @@
      */
     float Health { get; }
 
+
     void GenerateShield();
     void ReleaseSteam();
-    void InsertVuel(float value);
+    void InsertFuel(float value);
     void Update();
 }

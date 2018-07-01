@@ -19,7 +19,7 @@ public class ParameterVisualizer : MonoBehaviour {
 	void LateUpdate () {
         healthBar.value = Ship.Instance.Health;
         shieldBar.value = Ship.Instance.Shield;
-        powerBar.value = Ship.Instance.Vuel;
+        powerBar.value = Ship.Instance.Fuel;
         steamBar.value = Ship.Instance.Steam;
 	}
 }
