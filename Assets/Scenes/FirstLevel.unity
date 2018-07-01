@@ -722,11 +722,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4208741770752988, guid: d23eb0992365cd24888fb0945b09e36e, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4208741770752988, guid: d23eb0992365cd24888fb0945b09e36e, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 114825239991859308, guid: d23eb0992365cd24888fb0945b09e36e,
         type: 2}
