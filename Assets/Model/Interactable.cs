@@ -2,5 +2,6 @@
 {
     ShieldGenerator,
     SteamVentilation,
-    PowerGenerator
+    PowerGenerator,
+    StardustContainer
 }
