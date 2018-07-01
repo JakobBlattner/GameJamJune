@@ -14,6 +14,7 @@ public class ParameterVisualizer : MonoBehaviour {
     private Procedural_Background_Generator backgroundAnim;
     private GameObject engineFireLeft;
     private GameObject engineFireRight;
+    private GameObject engineFireOverview;
 
     // Use this for initialization
     void Start () {
@@ -26,6 +27,7 @@ public class ParameterVisualizer : MonoBehaviour {
 
         engineFireLeft = GameObject.Find("EngineFire_Left");
         engineFireRight = GameObject.Find("EngineFire_Right");
+        engineFireOverview = GameObject.Find("EngineFire_OverView");
     }
 	
 	void LateUpdate () {
@@ -57,7 +59,7 @@ public class ParameterVisualizer : MonoBehaviour {
             this.SetEngineFireActive(3);
         }
     }
-
+    //sets image of engine fire accoringly to speed
     private void SetEngineFireActive(int v)
     {
         foreach (Transform child in engineFireRight.transform)
@@ -69,6 +71,14 @@ public class ParameterVisualizer : MonoBehaviour {
         }
 
         foreach (Transform child in engineFireLeft.transform) {
+            if (child.name.Contains("engine" + v))
+                child.gameObject.SetActive(true);
+            else
+                child.gameObject.SetActive(false);
+        }
+
+        foreach (Transform child in engineFireOverview.transform)
+        {
             if (child.name.Contains("engine" + v))
                 child.gameObject.SetActive(true);
             else
