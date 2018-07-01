@@ -32,4 +32,8 @@
     void ReleaseSteam();
     void InsertFuel(float value);
     void Update();
+    void SetConfig(IGameSettings gameSettings);
+    IGameSettings Config { get; }
+    void Damage(float i);
+    void ApplyRapairTick(float repairTick);
 }

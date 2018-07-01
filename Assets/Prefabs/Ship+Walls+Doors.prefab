@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 61880644631690328}
   - component: {fileID: 111224732340993200}
   - component: {fileID: 95607077573051062}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DoorHorizontalClosed (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 61713427214523488}
   - component: {fileID: 111570168388263332}
   - component: {fileID: 95506982619406186}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DoorVerticalClosed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 61289488241559556}
   - component: {fileID: 111394631473302754}
   - component: {fileID: 95016151011903774}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DoorVerticalClosed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 61866679695889610}
   - component: {fileID: 111801523519314802}
   - component: {fileID: 95915684410607740}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DoorHorizontalClosed (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 61773624822760050}
   - component: {fileID: 111752460287328466}
   - component: {fileID: 95496359987362186}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DoorVerticalClosed (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,9 +157,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4849005183095222}
   - component: {fileID: 114087267204741632}
+  - component: {fileID: 114653974874068520}
   m_Layer: 0
   m_Name: Ship
-  m_TagString: Untagged
+  m_TagString: Ship
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,7 +179,7 @@ GameObject:
   - component: {fileID: 61465372079490546}
   - component: {fileID: 111786153348825626}
   - component: {fileID: 95064546391170744}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DoorHorizontalClosed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +200,7 @@ GameObject:
   - component: {fileID: 61046545000111098}
   - component: {fileID: 111621578713989128}
   - component: {fileID: 95350855989243730}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DoorVerticalClosed (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +261,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096458716971546}
   m_LocalRotation: {x: -0, y: -0, z: 0.99999386, w: 0.0035071354}
-  m_LocalPosition: {x: -8.714732, y: 0.7011442, z: 3.1458492}
+  m_LocalPosition: {x: -2.1039782, y: 1.734077, z: 0.049999952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4997909218449446}
@@ -273,7 +274,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1307852306711432}
   m_LocalRotation: {x: -0, y: -0, z: 0.99999386, w: 0.0035071354}
-  m_LocalPosition: {x: -4.714831, y: 0.67308736, z: 3.1458492}
+  m_LocalPosition: {x: 1.8959231, y: 1.7060201, z: 0.049999952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4997909218449446}
@@ -286,7 +287,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1111423444692592}
   m_LocalRotation: {x: -0, y: -0, z: 0.99999386, w: 0.0035071354}
-  m_LocalPosition: {x: -6.7288103, y: -1.3128349, z: 3.1458492}
+  m_LocalPosition: {x: -0.1180563, y: -0.2799021, z: 0.049999952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4997909218449446}
@@ -299,7 +300,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1699611295886638}
   m_LocalRotation: {x: -0, y: -0, z: 0.99999386, w: 0.0035071354}
-  m_LocalPosition: {x: -0.71692264, y: 0.6460444, z: 3.1458492}
+  m_LocalPosition: {x: 5.8938313, y: 1.6789771, z: 0.049999952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4997909218449446}
@@ -312,7 +313,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1653016397366492}
   m_LocalRotation: {x: -0, y: -0, z: 0.99999386, w: 0.0035071354}
-  m_LocalPosition: {x: -6.7007537, y: 2.687067, z: 3.1458492}
+  m_LocalPosition: {x: -0.09, y: 3.72, z: 0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4997909218449446}
@@ -325,7 +326,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1872755360958116}
   m_LocalRotation: {x: -0, y: -0, z: 0.99999386, w: 0.0035071354}
-  m_LocalPosition: {x: -2.700852, y: 2.65901, z: 3.1458492}
+  m_LocalPosition: {x: 3.909902, y: 3.6919427, z: 0.049999952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4997909218449446}
@@ -353,7 +354,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1166020740804780}
   m_LocalRotation: {x: -0, y: -0, z: 0.99999386, w: 0.0035071354}
-  m_LocalPosition: {x: -2.7289088, y: -1.3408917, z: 3.1458492}
+  m_LocalPosition: {x: 3.8818452, y: -0.30795896, z: 0.049999952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4997909218449446}
@@ -1228,6 +1229,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ed7fb0a792a3f341b0c9bd052326cd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _fuelTick: 0.01
+  _steamTick: 0.04
+  _steamTickCooling: 0.04
+  _shieldTick: 0.2
+  _maxSteamDamageTick: 0.03
+  _steamReleaseTick: 5
+  _steamOverloadThreshold: 75
+  _maxValueFuelForSteam: 100
+  _maxValueShield: 100
+  _maxValueSteam: 100
+  _damageTileMultiplier: 5
+  _repairTick: 5
 --- !u!114 &114104584851164742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1294,6 +1307,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be9add53f2f2874fbe4f9ee982eb2b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114653974874068520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697436193640006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04a0656f56c45e4fbc6c6ded63c59b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamagedWallPrefab: {fileID: 1851660475255420, guid: 0b5202f332aa69f47aed887dc477b2f5,
+    type: 2}
 --- !u!114 &114658039884682120
 MonoBehaviour:
   m_ObjectHideFlags: 1

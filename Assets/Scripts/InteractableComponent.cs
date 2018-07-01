@@ -23,6 +23,9 @@ public class InteractableComponent : MonoBehaviour
                 case Interactable.PowerGenerator:
                     _interactable = new PowerGenerator();
                     break;
+                case Interactable.DamagedFloor:
+                    _interactable = gameObject.GetComponent<IInteractable>();
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException();
             }

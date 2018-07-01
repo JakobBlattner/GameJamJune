@@ -3,5 +3,6 @@
     ShieldGenerator,
     SteamVentilation,
     PowerGenerator,
-    StardustContainer
+    StardustContainer,
+    DamagedFloor
 }
