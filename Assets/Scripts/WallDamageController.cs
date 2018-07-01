@@ -32,7 +32,7 @@ public class WallDamageController : MonoBehaviour
     public void ApplyDamage(float i)
     {
         var damageStorage = GetCurrentOrCreateDamageStorage();
-        damageStorage.CurrentDamage = damageStorage.CurrentDamage + i;
+        damageStorage.ApplyDamage(i);
     }
 
     public DamageStorage GetCurrentOrCreateDamageStorage()
