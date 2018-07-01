@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222381307321111994}
   - component: {fileID: 114947087436371166}
   m_Layer: 5
-  m_Name: Bar
+  m_Name: Camera_Projection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,8 +68,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1783710136335200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.4622, y: 385, z: 0}
-  m_LocalScale: {x: 18.508131, y: 10.641934, z: 18.508131}
+  m_LocalPosition: {x: 3.4622, y: 350, z: 0}
+  m_LocalScale: {x: 11.81384, y: 6.7928042, z: 11.81384}
   m_Children:
   - {fileID: 224661897595181344}
   - {fileID: 224341347593237616}
