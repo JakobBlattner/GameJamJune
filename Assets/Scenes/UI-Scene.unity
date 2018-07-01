@@ -1487,6 +1487,11 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114667326453764962, guid: 25a9f9ceced42aa42ab66f89367f88ab,
+        type: 2}
+      propertyPath: m_Text
+      value: YOU DIED!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25a9f9ceced42aa42ab66f89367f88ab, type: 2}
   m_IsPrefabParent: 0

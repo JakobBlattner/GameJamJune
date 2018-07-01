@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GlobalInputController : MonoBehaviour {
 
@@ -12,6 +13,11 @@ public class GlobalInputController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	    if (Input.GetKey(KeyCode.Escape))
-	        Application.Quit();
-	}
+        {
+            Application.Quit();
+        } else if (Input.GetKey(KeyCode.Return))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
 }
