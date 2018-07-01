@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 35eea233f710322499f1298a04e64a87
+guid: 84ac2607e57e73a4bad4c368c0fe5481
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fuel-tiles_0
-    21300002: fuel-tiles_1
-    21300004: fuel-tiles_2
-    21300006: fuel-tiles_3
-    21300008: fuel-tiles_4
-    21300010: fuel-tiles_5
+    21300000: shield-generator-anim_0
+    21300002: shield-generator-anim_1
+    21300004: shield-generator-anim_2
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -110,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fuel-tiles_0
+      name: shield-generator-anim_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,13 +121,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d810a5860ecdef44a73dd203813cbc5
+      spriteID: a27107c2e2f94394299eb37746d9fcdc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fuel-tiles_1
+      name: shield-generator-anim_1
       rect:
         serializedVersion: 2
         x: 32
@@ -144,13 +141,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02422197a726bca419d304e1d98e3e09
+      spriteID: 68fb92efa7e36874c923d94817de8a29
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fuel-tiles_2
+      name: shield-generator-anim_2
       rect:
         serializedVersion: 2
         x: 64
@@ -164,67 +161,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d1cc2ce0782c84a8bc7616d472e7a6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fuel-tiles_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 178d125da458fbe499a6f8dad9dcc511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fuel-tiles_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc535aa2c9390be429368d6f3562b40d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fuel-tiles_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df1b997f486acb84582ec84d09b0bb03
+      spriteID: b5552e62984fd914099b1b72450747aa
       vertices: []
       indices: 
       edges: []
@@ -232,7 +169,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 52286d4ca884b454595d6774b9e4f687
+    spriteID: f80649ac65e17b646b22dc58ccdd3b32
     vertices: []
     indices: 
     edges: []
