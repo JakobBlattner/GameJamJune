@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class ShipController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-
     void FixedUpdate()
     {
         var ship = GetShip();
@@ -19,9 +14,4 @@ public class ShipController : MonoBehaviour {
     {
         return Ship.Instance;
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }
