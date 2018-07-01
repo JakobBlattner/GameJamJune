@@ -3,6 +3,7 @@
     using System.Diagnostics;
     using UnityEngine;
     using UnityEngine.Tilemaps;
+    using UnityEngine.UI;
     using Debug = UnityEngine.Debug;
 
     public class Ship : IShip
@@ -51,6 +52,17 @@
             FuelSteamEngine();
             HandleSteamOverload();
             DeleteRepairedTiles();
+            GameOverCheck();
+        }
+
+        private void GameOverCheck()
+        {
+            if (Health <= 0)
+            {
+                var find = GameObject.Find("GameOver");
+                var gameObject = find.GetComponent<Text>();
+                gameObject.enabled = true;
+            }
         }
 
         private void DeleteRepairedTiles()
