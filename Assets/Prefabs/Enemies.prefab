@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1618246162675542}
+  m_IsPrefabParent: 1
+--- !u!1 &1618246162675542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4016933669201950}
+  - component: {fileID: 114461854858289514}
+  m_Layer: 8
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4016933669201950
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618246162675542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114461854858289514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618246162675542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 811a0cf71e85f1b46863e2e9a360c3de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroids:
+  - {fileID: 1095228724417030, guid: 2f247bc4989ca984f911e096ba629451, type: 2}
+  - {fileID: 1512111699940006, guid: 3883e8f7dc3159e43b13b6f72fd5fa2f, type: 2}
+  - {fileID: 1617285333186046, guid: f4ee703dab74ea642903e59ee0f2731d, type: 2}
+  - {fileID: 1209959778015612, guid: e016c4fa16b83204a9ee7af1df74fe28, type: 2}
+  - {fileID: 1988514340545898, guid: dc4224dd729efd7469228bea5b0e2a0a, type: 2}
+  - {fileID: 1364946872715874, guid: 4c4c938100242d24887f225cccdd96c4, type: 2}
+  - {fileID: 1698762737783196, guid: b001cfc89b0d9fc41b1c9d930ba6faf9, type: 2}
+  - {fileID: 1109907351978794, guid: cb757da8d080b634ba0db089723f0935, type: 2}
+  - {fileID: 1551831504378914, guid: 5a5a799a6ffe30742839041180488ceb, type: 2}
+  - {fileID: 1387945093657684, guid: b465f01e514482740889d21408611d08, type: 2}
+  - {fileID: 1133645759950542, guid: b87e1fb94a52b724dbc8ac438203265c, type: 2}
+  - {fileID: 1518760811623320, guid: 8490f9cdf2d55f74683bb2b53490ba04, type: 2}
+  - {fileID: 1237463228395666, guid: 9cbf1bf971094e645a56cc6e2b7153ee, type: 2}
+  - {fileID: 1812002325323624, guid: addac6910b5fcc34c9f74c64ea8159da, type: 2}
+  - {fileID: 1212898497133790, guid: e8d3ab8759599294bbf64bf89629c8fc, type: 2}
